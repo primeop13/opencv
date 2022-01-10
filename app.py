@@ -6,7 +6,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def camera():
-    return render_template('camera.html')
+    return 'Hello World'
+    #return render_template('camera.html')
 
 
 def get_frame():
